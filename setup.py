@@ -34,7 +34,7 @@ setup(
     author=__author__,
     install_requires=['Flask>=0.10.1',
                     'Flask-SQLAlchemy>=1.0',
-                    'SQLAlchemy==0.8.2',
+                    'SQLAlchemy==1.3.0',
                     ],
     author_email=__author_email__,
     description=__doc__,

@@ -50,12 +50,15 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#command-line-script">Command line script</a></li>
+        <li><a href="#python-library">Python Library</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -112,6 +115,24 @@ pip install filtertext
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### Command line script
+
+#### Installation Directory
+
+pip will install a command line script that you can use.
+To find the installation directory of that script, you can run this code:
+
+```bash
+python -m site --user-base
+```
+Inside of that folder, you will find a folder structure similar to `Python312\Scripts` or `Python312\bin`.
+In this folder, there is a script file `filter_text.py`.
+
+You can add this folder (`../Scripts` or `../bin`) to your **environment variables**,
+so you can run the script without navigating to the folder again.
+
+#### Run the command line script
+
 You can run the script **filter_text.py** with some command line arguments:
 
 ```bash
@@ -130,6 +151,22 @@ Output
   -o    OUTPUT_FILE: Output file path (if it exists, it will be deleted first)
 ```
 <br>
+
+_For more examples, please refer to the [Documentation][doc-url]_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Python Library
+
+```python
+from filtertext import *
+
+file_path = "example.txt"
+remove_whitespace = RemoveWhitespaceLinesTextFilter.from_file(file_path)
+remove_whitespace.filter()
+
+print(remove_filter.text)
+```
 
 _For more examples, please refer to the [Documentation][doc-url]_
 

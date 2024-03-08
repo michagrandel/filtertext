@@ -131,6 +131,8 @@ In this folder, there is a script file `filter_text.py`.
 You can add this folder (`../Scripts` or `../bin`) to your **environment variables**,
 so you can run the script without navigating to the folder again.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Run the command line script
 
 You can run the script **filter_text.py** with some command line arguments:

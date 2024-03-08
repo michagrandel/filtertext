@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/michagrandel/filtertext">
-    <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/logo.png?raw=True" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Filter Text</h3>
@@ -96,7 +96,7 @@ Complete list of dependencies:
 
 <table>
 <tr style="padding:0; margin:0">
-  <td style="padding:0; margin:0; vertical-align:center"> <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/python.png" height="20" /> </td>
+  <td style="padding:0; margin:0; vertical-align:center"> <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/python.png?raw=True" height="20" /> </td>
   <td style="padding:0; padding-left:5px; margin:0; vertical-align:center"> <a href="https://python.org">Python 3.x</a> </td></tr>
 </table>
 

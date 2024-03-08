@@ -33,7 +33,7 @@
     <br />
     <a href="https://github.com/michagrandel/filtertext/issues">Report Bug</a>
     ·
-    <a href="https://github.com/michagrandel/textfilter/issues">Request Feature</a>
+    <a href="https://github.com/michagrandel/filtertext/issues">Request Feature</a>
   </p>
 </div>
 

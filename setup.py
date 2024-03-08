@@ -11,7 +11,7 @@ import filtertext
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __url__ = 'http://github.com/michagrandel/filtertext/'
 __author__ = 'Micha Grandel'
 __author_email__ = 'hello@michagrandel.de'
@@ -40,7 +40,7 @@ setup(
     include_package_data=True,
     platforms='any',
     scripts=['scripts/filter_text.py'],
-    download_url='https://github.com/michagrandel/filtertext/releases/download/v1.0/filtertext-1.0.0-py3-none-any.whl',
+    download_url='https://github.com/michagrandel/filtertext/releases/download/v1.0/filtertext-1.0.1-py3-none-any.whl',
     classifiers = [
         'Programming Language :: Python',
         'Development Status :: 4 - Beta',

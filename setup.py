@@ -12,7 +12,7 @@ import filtertext
 here = os.path.abspath(os.path.dirname(__file__))
 
 __version__ = '1.0.0'
-__url__ = 'http://github.com/michagrandel/textfilter/'
+__url__ = 'http://github.com/michagrandel/filtertext/'
 __author__ = 'Micha Grandel'
 __author_email__ = 'hello@michagrandel.de'
 __license__ = 'Apache 2.0 License'
@@ -27,22 +27,20 @@ def read(*filenames):
 long_description = read('README.md')
 
 setup(
-    name='textfilter',
+    name='filtertext',
     version=__version__,
     url=__url__,
     license=__license__,
     author=__author__,
-    install_requires=['Flask>=0.10.1',
-                    'Flask-SQLAlchemy>=1.0',
-                    'SQLAlchemy==0.8.2',
-                    ],
     author_email=__author_email__,
     description=__doc__,
+    long_description_content_type="text/markdown",
     long_description=long_description,
-    packages=['textfilter'],
+    packages=['filtertext'],
     include_package_data=True,
     platforms='any',
-    scripts=['scripts/filter_text.py']
+    scripts=['scripts/filter_text.py'],
+    download_url='https://github.com/michagrandel/filtertext/releases/download/v1.0/filtertext-1.0.0-py3-none-any.whl',
     classifiers = [
         'Programming Language :: Python',
         'Development Status :: 4 - Beta',

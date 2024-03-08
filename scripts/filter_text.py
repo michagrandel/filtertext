@@ -9,33 +9,8 @@ import shutil
 import argparse
 from pathlib import Path
 
-from filtertext import *
-
-
-class RemoveWhitespaceLinesTextFilter(TextFilter):
-    def __init__(self, data=None):
-        super().__init__(data)
-
-    def filter(self, data=None, **kwargs):
-        super().filter(data, kwargs=kwargs)
-
-        filtered_lines = []
-        lines = self._text.split('\n')
-        for line in lines:
-            if line.strip() != "":
-                filtered_lines.append(line.strip())
-        self._text = '\n'.join(filtered_lines)
-
-class RemoveDuplicatedLinesTextFilter(TextFilter):
-    def __init__(self, data=None):
-        super().__init__(data)
-
-    def filter(self, data=None, **kwargs):
-        super().filter(data, kwargs=kwargs)
-
-        filtered_lines = set()
-        filtered_lines.update(self._text.split('\n'))
-        self._text = '\n'.join(filtered_lines)
+from filtertext import RemoveDuplicatedLinesTextFilter
+from filtertext import RemoveWhitespaceLinesTextFilter
 
 def config_arg_parser():
     arg_parser = argparse.ArgumentParser(
@@ -74,7 +49,7 @@ def main(application, args):
         filters.append(RemoveDuplicatedLinesTextFilter)
 
     if parsed.l:
-        with open(parse.l, "r") as list_file:
+        with open(parsed.l, "r") as list_file:
             files.extend(list_file.readlines())
 
     if parsed.o:

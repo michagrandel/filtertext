@@ -28,7 +28,7 @@
   <p align="center">
     Command line tool to filter text and save result to file or print to output!
     <br />
-    <a href="https://github.com/michagrandel/filtertext"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/michagrandel/filtertext/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/michagrandel/filtertext/issues">Report Bug</a>

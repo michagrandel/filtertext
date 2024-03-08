@@ -9,10 +9,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Python][python-shield]][python-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
+  [![Python][python-shield]][python-url]
+  [![Apache 2.0 License][license-shield]][license-url]
+  [![PyPI - Format](https://img.shields.io/pypi/format/filtertext?style=for-the-badge)][pypi-url]
+  [![PyPI - Status](https://img.shields.io/pypi/status/filtertext?style=for-the-badge)][pypi-url]
+  [![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -258,6 +261,7 @@ Project Link: [https://github.com/michagrandel/filtertext][project-url]
 
 [product-screenshot]: images/screenshot.png
 
+[pypi-url]: https://pypi.org/project/filtertext/
 [python-url]: https://python.org/
 [contributors-url]: https://github.com/michagrandel/filtertext/graphs/contributors
 [forks-url]: https://github.com/michagrandel/filtertext/network/members

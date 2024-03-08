@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/michagrandel/filtertext">
-    <img src="doc/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Filter Text</h3>
@@ -96,7 +96,7 @@ Complete list of dependencies:
 
 <table>
 <tr style="padding:0; margin:0">
-  <td style="padding:0; margin:0; vertical-align:center"> <img src="doc/images/python.png" height="20" /> </td>
+  <td style="padding:0; margin:0; vertical-align:center"> <img src="https://github.com/michagrandel/filtertext/blob/main/doc/images/python.png" height="20" /> </td>
   <td style="padding:0; padding-left:5px; margin:0; vertical-align:center"> <a href="https://python.org">Python 3.x</a> </td></tr>
 </table>
 
@@ -247,7 +247,7 @@ Project Link: [https://github.com/michagrandel/filtertext][project-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[python-icon]: doc/images/python.png
+[python-icon]: https://github.com/michagrandel/filtertext/blob/main/doc/images/python.png
 
 [python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white
 [contributors-shield]: https://img.shields.io/github/contributors/michagrandel/filtertext.svg?style=for-the-badge
@@ -259,13 +259,10 @@ Project Link: [https://github.com/michagrandel/filtertext][project-url]
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [email-shield]: https://img.shields.io/badge/mail-D14836?style=for-the-badge&logo=email&logoColor=white
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/michagrandel/filtertext/blob/main/doc/images/screenshot.png
 
 [pypi-url]: https://pypi.org/project/filtertext/
 [python-url]: https://python.org/
-[contributors-url]: https://github.com/michagrandel/filtertext/graphs/contributors
-[forks-url]: https://github.com/michagrandel/filtertext/network/members
-[stars-url]: https://github.com/michagrandel/filtertext/stargazers
 [issues-url]: https://github.com/michagrandel/filtertext/issues
 [license-url]: https://github.com/michagrandel/filtertext/blob/master/LICENSE.md
 [linkedin-url]: https://linkedin.com/in/michagrandel/en

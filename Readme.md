@@ -40,7 +40,12 @@
   </p>
 </div>
 
-
+> **WARNING**:
+> Please note that this project will be merged into my new general purpose python toolset <a href="https://github.com/michagrandel/plywoodpirate">"plywoodpirate"</a>.
+> New features will be introduce only after the merge has been finished.
+>
+> The merge will take place during 2025.
+> This repository will be available until 1st Feburary 2026. After that, it will be deleted.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -83,6 +88,7 @@ You can use it for:
 * Removing lines with whitespaces only in a text file
 * Remove duplicated lines in a text file
 * Extend the functionality by creating your own custom filters
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

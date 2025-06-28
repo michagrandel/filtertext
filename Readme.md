@@ -40,7 +40,8 @@
   </p>
 </div>
 
-> **WARNING**:
+> [!IMPORTANT]
+>
 > Please note that this project will be merged into my new general purpose python toolset <a href="https://github.com/michagrandel/plywoodpirate">"plywoodpirate"</a>.
 > New features will be introduce only after the merge has been finished.
 >
